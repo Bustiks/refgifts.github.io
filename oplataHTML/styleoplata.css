@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Rubik:wght@300;400;500;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.conteiner{
+    max-width: 390px;
+    height: 596px;
+    background: linear-gradient(90deg, #E3E3E3 0%, #B9B9E2 100%);
+}
+
+.icon{
+    width: 35px;
+height: 31.864px;
+position: absolute;
+margin-top: 71px;
+margin-left: 177px;
+}
+
+.name{
+    color: #151515;
+font-family: Rubik;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: absolute;
+margin-top: 103px;
+margin-left: 145px;
+}
+
+.galka{
+    width: 53px;
+height: 53px;
+position: absolute;
+margin-top: 147px;
+margin-left: 168px;
+z-index: 2;
+}
+
+.fov{
+    width: 303px;
+height: 413px;
+position: absolute;
+margin-top: 116px;
+margin-left: 43px;
+z-index: 1;
+}
+
+.bg{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 48px;
+}
+
+.text1{
+    color: #616161;
+
+font-family: Rubik;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: absolute;
+margin-top: 207px;
+margin-left: 58px;
+cursor: default;
+user-select: none;
+z-index: 2;
+}
+
+.text2{
+    width: 262px;
+height: 198px;
+color: #616161;
+
+font-family: Rubik;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+z-index: 1;
+margin-top: 243px;
+margin-left: 58px;
+cursor: default;
+user-select: none;
+}
+
+.finish{
+width: 303px;
+height: 34px;
+background: #A3FF78;
+margin-left: 43px;
+margin-top: 468px;
+z-index: 5;
+color: #000;
+font-family: Rubik;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align: center;
+position: absolute;
+line-height: 34px; /* Выравнивание по центру по вертикали */
+cursor: pointer;
+transition: background 0.1s ease; /* Плавный переход цвета в течение 0.3 секунд */
+user-select: none;
+}
+
+.finish:active {
+    background: #b9ff9c; /* Изменение цвета при активации (нажатии) */
+  }
+
+.otprav{
+width: 147px;
+height: 31px;
+border-radius: 35px;
+background: #000;
+position: absolute;
+margin-top: 516px;
+margin-left: 121px;
+z-index: 2;
+border: none;
+color: #FFF;
+
+font-family: Rubik;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+transition: background 0.1s ease; /* Плавный переход цвета в течение 0.3 секунд */
+}
+
+.otprav:active {
+    background: #444444; /* Изменение цвета при активации (нажатии) */
+  }
